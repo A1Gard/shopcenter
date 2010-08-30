@@ -1,0 +1,118 @@
+body{
+    direction: rtl;
+    background-image: url(img/bg.png);
+    font-family:tahoma;
+}
+
+div.mid{
+    position: absolute;
+    top: 4px;
+    left: 24px;
+    right: 24px;
+}
+
+.topmid{
+    background-image: url(img/top-m.png);
+    height: 113px;
+    text-align: center;
+    background-repeat: repeat-x;
+    width: 100%;
+    margin: 0px;
+    z-index: -1;
+}
+
+.topleft{
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    background-image: url(img/top-l.png);
+    width: 17px;
+    height: 113px;
+    z-index: 5;
+}
+
+.topright{
+    position:absolute ;
+    top: 4px;
+    right: 7px;
+    background-image: url(img/top-r.png);
+    width: 17px;
+    height: 113px;
+}
+
+div.boxinter{
+    position: absolute;
+    top: 130px;
+    left: 17px;
+    right: 9px;
+}
+
+.interface{
+    background-image: url(img/alpha.png);
+    height: 93px;
+    border-collapse: separate;
+    border-style:ridge;
+    width: 100%;
+}
+
+.btn1{
+    float: left;
+    margin-left: 4%;
+    width: 80px;
+    height: 80px;
+    border: 0px;
+}
+.btn2{
+    float: left;
+    margin-left: 2%;
+    width: 90px;
+    height: 90px; 
+    border: 0px;
+    margin-right: 1%;
+}
+
+.side{
+    position: absolute;
+    top: 235px;
+    left: 78%;
+    text-align: center;
+}
+
+.sidetop{
+    background-image: url(img/sidetop.png);
+    width: 205px;
+    height: 33px;
+    float:left;
+    clear: both;
+}
+
+.sideplace{
+    float: left;
+    clear: both;
+    width: 201px;
+    border: 2px solid black;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+div.postbox{
+    position: absolute;
+    top: 235px;
+    left: 15px;
+    right: 25%;
+    text-align: center;
+}
+
+.posttop{
+    width: 100%;
+    background-image: url(img/posttop.png);
+    height: 27px ;
+    border: 1px solid black;
+}
+.posttxt{
+    width: 100%;
+    background-image: url(img/alphaw.png);
+    border: 1px solid black;
+    background-repeat: repeat;
+    text-align: right;
+    }

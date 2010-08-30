@@ -1,0 +1,57 @@
+/*Admin cp style sheet*/
+body{
+    direction: rtl ;
+    font-family: tahoma;
+    font-size: 15px;
+    background-image: url(i/bg.png);
+}
+.allcpside
+{
+    position: absolute;
+    left: 2%;
+    width: 200px;
+    height: 100%;
+    border: black;
+    border-style: inherit;
+}
+
+.item {
+    float: left;
+    margin:1px ;
+    list-style-type:none;
+    clear: both;
+    text-align: center;
+    width:150px;
+}
+
+.au
+{
+float:left;
+width:150px;
+text-decoration:none;
+color:white;
+background-image: url(i/m1.png);
+background-repeat: repeat-x;
+padding:0.2em 0.6em;
+border:1px solid navy;
+text-align: center;
+}
+.au:hover {background-image: url(i/m2.png);background-repeat: repeat-x;}
+
+
+.btn
+{
+color:white;
+background-image: url(i/m1.png);
+background-repeat: repeat-x;
+padding:0.2em 0.6em;
+border:1px solid white;
+}
+.btn:hover {background-image: url(i/m2.png);background-repeat: repeat-x;}
+
+
+
+.at{
+    z-index: 7;
+    text-decoration:none;
+}
